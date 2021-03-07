@@ -45,7 +45,7 @@ To help process this data, you will create machine learning models capable of cl
   * Testing: 0.520
 * Using `GridSearch` and attempting to tune `C` and `gamma` improved the results to 0.608.
 
-Final analysis:
+## Final analysis:
 
 * All of the models, prior to GridSearch, started off at roughly 0.500 which is selecting the correct result half of the time.
 * `GridSearch` helped all three models to a greater or lesser degree.
