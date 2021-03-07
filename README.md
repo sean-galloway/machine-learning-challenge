@@ -21,7 +21,7 @@ To help process this data, you will create machine learning models capable of cl
 ### Model-1 Logistic Regression
 
 * Using StandardScaler resulted in better scores that MinMaxScaler.
-* For feature selection, all of the supplied features used. It is noticed that a dramatic drop off in accuracy occurs if any features are left out.
+* For feature selection, all of the supplied features are used. It is noticed that a dramatic drop off in accuracy occurs if any features are left out.
 * The results are:
   * Training: 0.548
   * Testing: 0.565
@@ -30,7 +30,7 @@ To help process this data, you will create machine learning models capable of cl
 ### Model-2 Random Forest
 
 * Using MinMaxScaler resulted in slightly better results versus the StandardScaler.
-* For feature selection, all of the supplied features used. It is noticed that a dramatic drop off in accuracy occurs if any features are left out.
+* For feature selection, all of the supplied features are used. It is noticed that a dramatic drop off in accuracy occurs if any features are left out.
 * The results are:
   * Training: 0.489
   * Testing: 0.481
@@ -39,7 +39,7 @@ To help process this data, you will create machine learning models capable of cl
 ### Model-3 SVM
 
 * Using `MinMaxScaler` resulted in slightly better results versus the `StandardScaler`.
-* For feature selection, all of the supplied features used. It is noticed that a dramatic drop off in accuracy occurs if any features are left out.
+* For feature selection, all of the supplied features are used. It is noticed that a dramatic drop off in accuracy occurs if any features are left out.
 * The results are:
   * Training: 0.495
   * Testing: 0.520
